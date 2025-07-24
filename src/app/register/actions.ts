@@ -9,15 +9,30 @@ export async function signup(formData: FormData) {
 
     // type-casting here for convenience
     // in practice, you should validate your inputs
-    const data = {
-        email: formData.get('email') as string,
-        password: formData.get('password') as string,
+    const email = formData.get('email') as string
+    const password = formData.get('password') as string
+    const name = formData.get('name') as string
+
+    const { data: signUpData, error } = await supabase.auth.signUp({
+        email,
+        password,
+    })
+
+    if (error || !signUpData.user) {
+        redirect('/error')
     }
 
-    const { error } = await supabase.auth.signUp(data)
+    // Insert ke tabel profiles
+    const { error: profileError } = await supabase.from('profiles').insert([
+        {
+            id: signUpData.user.id,
+            name: name,
+        },
+    ])
 
-    if (error) {
-        redirect('/error')
+    if (profileError) {
+        console.error("Profile insert error:", profileError)
+        redirect('/error') // redirect jika gagal simpan profil
     }
 
     revalidatePath('/', 'layout')

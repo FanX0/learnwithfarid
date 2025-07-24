@@ -4,27 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8aac28-0880-4d0d-8b48-9af94cc9641c" name="Changes" comment="Initial commit from Create Next App">
-      <change afterPath="$PROJECT_DIR$/src/app/auth/confirm/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/register/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/register/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LogoutButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dashboard/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/error/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/supabase/client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/supabase/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/supabase/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="dc8aac28-0880-4d0d-8b48-9af94cc9641c" name="Changes" comment="add learns categories">
+      <change afterPath="$PROJECT_DIR$/src/app/api/users/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/SidebarDashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/learn/create/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/learn/edit/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/learn/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/learnscategories/create/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/learnscategories/edit/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/learnscategories/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/users/create/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/users/edit/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/users/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InputField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SelectField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextareaField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/learncategory/LearnCategoryForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learns/create.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learns/deleteById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learns/fetchAll.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learns/fetchById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learns/schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learns/updateById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learnscategories/create.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learnscategories/deleteById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learnscategories/fetchAll.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learnscategories/fetchById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learnscategories/schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/learnscategories/updateById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/users/create.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/users/deleteById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/users/fetchAll.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/users/fetchById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/users/schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/users/updateById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/learns.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/learnscategories.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/users.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/supabase/serviceClient.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/register/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/register/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/register/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/register/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dashboard/page.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +93,7 @@
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/FanX_E/Lesson/Mini Projek/Fullstack/next.js/project/learnwithfarid/src/app/dashboard&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,7 +105,12 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FanX_E\Lesson\Mini Projek\Fullstack\next.js\project\learnwithfarid\src\app\dashboard" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FanX_E\Lesson\Mini Projek\Fullstack\next.js\project\learnwithfarid\src\app\api\users" />
+      <recent name="E:\FanX_E\Lesson\Mini Projek\Fullstack\next.js\project\learnwithfarid\src\app\dashboard" />
       <recent name="E:\FanX_E\Lesson\Mini Projek\Fullstack\next.js\project\learnwithfarid\src" />
     </key>
   </component>
@@ -110,7 +145,22 @@
       <updated>1752044805239</updated>
       <workItem from="1752044808259" duration="296000" />
       <workItem from="1752045186268" duration="3005000" />
-      <workItem from="1752062522908" duration="695000" />
+      <workItem from="1752062522908" duration="7046000" />
+      <workItem from="1752118922689" duration="24537000" />
+      <workItem from="1752234396602" duration="345000" />
+      <workItem from="1752234764734" duration="9420000" />
+      <workItem from="1752389398271" duration="30000" />
+      <workItem from="1752389442100" duration="16170000" />
+      <workItem from="1752502549196" duration="6891000" />
+      <workItem from="1752583391577" duration="2965000" />
+      <workItem from="1752653904407" duration="11577000" />
+      <workItem from="1752755908944" duration="11738000" />
+      <workItem from="1752909017574" duration="12838000" />
+      <workItem from="1753104913011" duration="5528000" />
+      <workItem from="1753169204430" duration="2112000" />
+      <workItem from="1753255288721" duration="6125000" />
+      <workItem from="1753269302301" duration="10692000" />
+      <workItem from="1753342284767" duration="8983000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -120,7 +170,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752044943019</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit from Create Next App">
+      <option name="closed" value="true" />
+      <created>1752063353506</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752063353506</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit from Create Next App">
+      <option name="closed" value="true" />
+      <created>1752063360130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752063360130</updated>
+    </task>
+    <task id="LOCAL-00004" summary="auth">
+      <option name="closed" value="true" />
+      <created>1752063383586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752063383586</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +202,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit from Create Next App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit from Create Next App" />
+    <MESSAGE value="auth" />
+    <MESSAGE value="add learns categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="add learns categories" />
   </component>
 </project>

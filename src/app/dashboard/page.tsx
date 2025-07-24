@@ -9,9 +9,14 @@ export default async function DashboardPage() {
         redirect('/login')
     }
     return (
-        <div>
+        <div className=" bg-blue-500" >
             <p>Hello {data.user.email}</p>
             <LogoutButton />
+            <p>Welcome to your dashboard</p>
+            <p>You can do stuff here</p>
+            <p>Like add courses</p>
+            <p>Or add lessons</p>
+            <p>Or add quizzes</p>
         </div>
 
 
